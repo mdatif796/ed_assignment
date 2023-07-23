@@ -1,0 +1,139 @@
+.navbar {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 0 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftContainer {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3c4852;
+}
+
+.logo {
+  height: 35px;
+  cursor: pointer;
+}
+
+.navbar p {
+  display: inline-block;
+  font-weight: 500;
+}
+
+.downArrow {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-bottom: -2px;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.rightContainer {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #3c4852;
+}
+
+.searchIcon {
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+
+.joinBtn {
+  padding: 8px 1.5rem;
+  border: none;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 500;
+  color: #ffffff;
+  background-image: linear-gradient(to right, #008aff, #0151ff);
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1180px) {
+  .leftContainer {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .leftContainer {
+    width: 45%;
+  }
+
+  .rightContainer {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .navbar {
+    padding: 0 3rem;
+  }
+  .leftContainer {
+    width: 50%;
+  }
+
+  .rightContainer {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 12px;
+  }
+  .navbar {
+    padding: 0 1rem;
+  }
+  .leftContainer {
+    width: 55%;
+  }
+
+  .rightContainer {
+    width: 35%;
+  }
+
+  .joinBtn {
+    padding: 5px 1rem;
+  }
+}
+
+@media only screen and (max-width: 513px) {
+  body {
+    font-size: 10px;
+  }
+  .navbar {
+    padding: 0 0;
+  }
+  .leftContainer {
+    width: 58%;
+  }
+
+  .rightContainer {
+    width: 40%;
+  }
+
+  .joinBtn {
+    padding: 3px 0.8rem;
+    font-size: 10px;
+  }
+
+  .logo {
+    width: 5rem;
+  }
+}
