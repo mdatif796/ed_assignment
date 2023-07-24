@@ -1,0 +1,82 @@
+.planCardContainer {
+  width: 94%;
+  height: 8%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  margin-bottom: 0.7rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.leftDiv {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #cecece;
+}
+
+.subscription {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.rightDiv {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.totalPrice {
+  font-size: 0.6rem;
+}
+
+.recommended {
+  position: absolute;
+  top: -1px;
+  font-size: 0.5rem;
+  font-weight: 500;
+  line-height: 1;
+  width: 6rem;
+  height: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #47ba68;
+  color: #ffffff;
+  left: 11%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.greenBorder {
+  border-color: #47ba68;
+}
+
+.greenCircle {
+  background-color: #47ba68;
+}
+
+.expired {
+  background-color: #e7e7e7;
+  color: #bebebe;
+  pointer-events: none;
+}
+
+/* .expireCircle {
+    padd
+} */
