@@ -27,7 +27,7 @@ const PlanCard = (props) => {
           style={{ backgroundColor: "#ff0000" }}
           className={styles.recommended}
         >
-          Expired
+          Offer expired
         </span>
       )}
       <div className={styles.leftDiv}>
