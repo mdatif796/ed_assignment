@@ -9,6 +9,7 @@
   background-position: center;
   padding: 3rem 2.5rem 0 9rem;
   position: relative;
+  overflow: hidden;
 }
 
 .leftDiv {

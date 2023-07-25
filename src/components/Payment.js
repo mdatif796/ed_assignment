@@ -49,7 +49,6 @@ const Payment = () => {
     setPlans(data);
   }, [data]);
   const handlePriceChange = (index) => {
-    console.log(index);
     data = data.map((d) => {
       return { ...d, isActive: false };
     });

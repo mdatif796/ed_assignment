@@ -22,6 +22,14 @@ const PlanCard = (props) => {
       ].join(" ")}
     >
       {isRecommended && <span className={styles.recommended}>Recommended</span>}
+      {isExpired && (
+        <span
+          style={{ backgroundColor: "#ff0000" }}
+          className={styles.recommended}
+        >
+          Expired
+        </span>
+      )}
       <div className={styles.leftDiv}>
         <span
           className={[styles.circle, isActive ? styles.greenCircle : ""].join(
